@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ Copyright (c) 2015 Zhang Hai <Dreaming.in.Code.ZH@Gmail.com>
+  ~ All Rights Reserved.
+  -->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference android:key="pl">
+        <intent
+            android:targetClass="com.elbauldelprogramador.photogesture.app.PatternLockActivity"
+            android:targetPackage="com.elbauldelprogramador.photogesture" />
+    </Preference>
+
+    <Preference android:title="@string/pref_title_about">
+        <intent
+            android:targetClass="com.elbauldelprogramador.photogesture.app.AboutActivity"
+            android:targetPackage="com.elbauldelprogramador.photogesture" />
+    </Preference>
+</PreferenceScreen>
